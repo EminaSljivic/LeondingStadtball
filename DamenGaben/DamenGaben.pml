@@ -4,9 +4,13 @@
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
-    <Dialogs />
+    <Dialogs>
+        <Dialog name="Greetings" src="Greetings/Greetings.dlg" />
+    </Dialogs>
     <Resources />
-    <Topics />
+    <Topics>
+        <Topic name="Greetings_ged" src="Greetings/Greetings_ged.top" topicName="Greetings" language="de_DE" nuance="ged" />
+    </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">
         <Translation name="translation_de_DE" src="translations/translation_de_DE.ts" language="de_DE" />
