@@ -6,10 +6,12 @@
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="Greetings" src="Greetings/Greetings.dlg" />
+        <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
     </Dialogs>
     <Resources />
     <Topics>
         <Topic name="Greetings_ged" src="Greetings/Greetings_ged.top" topicName="Greetings" language="de_DE" nuance="ged" />
+        <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" nuance="enu" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

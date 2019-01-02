@@ -16,5 +16,8 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
+  <dialogContent topicName="Greetings" typeVersion="1.0">
+   <topic path="Greetings/Greetings_ged.top" language="de_DE"/>
+  </dialogContent>
  </contents>
 </package>
