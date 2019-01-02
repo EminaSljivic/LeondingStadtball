@@ -80,7 +80,7 @@ class MyClass(GeneratedClass):
               <Output name="onError" type="3" type_size="1" nature="2" inner="0" tooltip="Error output:&#x0A;- triggered if the language asked cannot be set" id="4" />
               <Resource name="Speech" type="Lock" timeout="0" />
             </Box>
-            <Box name="Greetings" id="1" localization="8" tooltip="" x="536" y="99">
+            <Box name="Greetings" id="1" localization="8" tooltip="" x="517" y="81">
               <dialogFile>../Greetings/Greetings.dlg</dialogFile>
               <bitmap>media/images/box/box-dialog.png</bitmap>
               <script language="4">
