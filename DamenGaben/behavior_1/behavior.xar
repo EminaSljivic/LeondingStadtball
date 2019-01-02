@@ -15,7 +15,7 @@
       <BehaviorLayer name="behavior_layer1">
         <BehaviorKeyframe name="keyframe1" index="1">
           <Diagram scale="70.7107">
-            <Box name="Set Language" id="2" localization="8" tooltip="Set the language of your robot for the current application. Your robot will speak and understand the selected language as long as your application has focus. Any following call to ALSpeechRecognition (Speech Reco. box for instance), ALTextToSpeech (Say box for instance) or ALDialog will use this language.&#x0A;" plugin="setlanguage_plugin" x="57" y="37">
+            <Box name="Set Language" id="2" localization="8" tooltip="Set the language of your robot for the current application. Your robot will speak and understand the selected language as long as your application has focus. Any following call to ALSpeechRecognition (Speech Reco. box for instance), ALTextToSpeech (Say box for instance) or ALDialog will use this language.&#x0A;" plugin="setlanguage_plugin" x="253" y="78">
               <bitmap>media/images/box/interaction/say.png</bitmap>
               <script language="4">
                 <content>
@@ -80,7 +80,7 @@ class MyClass(GeneratedClass):
               <Output name="onError" type="3" type_size="1" nature="2" inner="0" tooltip="Error output:&#x0A;- triggered if the language asked cannot be set" id="4" />
               <Resource name="Speech" type="Lock" timeout="0" />
             </Box>
-            <Box name="Greetings" id="1" localization="8" tooltip="" x="320" y="43">
+            <Box name="Greetings" id="1" localization="8" tooltip="" x="536" y="99">
               <dialogFile>../Greetings/Greetings.dlg</dialogFile>
               <bitmap>media/images/box/box-dialog.png</bitmap>
               <script language="4">
