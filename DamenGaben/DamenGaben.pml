@@ -12,6 +12,7 @@
     <Topics>
         <Topic name="Greetings_ged" src="Greetings/Greetings_ged.top" topicName="Greetings" language="de_DE" nuance="ged" />
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" nuance="enu" />
+        <Topic name="ExampleDialog_ged" src="behavior_1/ExampleDialog/ExampleDialog_ged.top" topicName="ExampleDialog" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">
