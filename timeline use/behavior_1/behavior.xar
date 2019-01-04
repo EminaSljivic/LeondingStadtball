@@ -989,6 +989,28 @@ class MyClass(GeneratedClass):
                         <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                         <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                       </Box>
+                      <Box name="Text Edit (2)" id="6" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="583" y="452">
+                        <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
+                        <script language="4">
+                          <content>
+                            <![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("")]]>
+                          </content>
+                        </script>
+                        <pluginContent>
+                          <text>
+                            <![CDATA[]]>
+                          </text>
+                        </pluginContent>
+                        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                        <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
+                        <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
+                      </Box>
                       <Link inputowner="3" indexofinput="2" outputowner="2" indexofoutput="4" />
                       <Link inputowner="4" indexofinput="2" outputowner="3" indexofoutput="3" />
                       <Link inputowner="0" indexofinput="4" outputowner="4" indexofoutput="4" />
@@ -1002,6 +1024,8 @@ class MyClass(GeneratedClass):
                       <Link inputowner="0" indexofinput="4" outputowner="10" indexofoutput="4" />
                       <Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="3" />
                       <Link inputowner="9" indexofinput="2" outputowner="2" indexofoutput="6" />
+                      <Link inputowner="6" indexofinput="2" outputowner="2" indexofoutput="9" />
+                      <Link inputowner="4" indexofinput="2" outputowner="6" indexofoutput="3" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
