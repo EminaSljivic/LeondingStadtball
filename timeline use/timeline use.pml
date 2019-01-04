@@ -5,7 +5,9 @@
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
-    <Resources />
+    <Resources>
+        <File name="R2D2 SOUND_Short" src="R2D2 SOUND_Short.mp3" />
+    </Resources>
     <Topics />
     <IgnoredPaths />
     <Translations auto-fill="de_DE">
